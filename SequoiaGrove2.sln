@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequoiaGrove2.Domain", "SequoiaGrove2.Domain\SequoiaGrove2.Domain.csproj", "{84A7AFE9-0EFA-4D7F-91DF-5638A4A3576A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequoiaGrove2.Data", "SequoiaGrove2.Data\SequoiaGrove2.Data.csproj", "{AB186838-57C4-4129-9944-D0E058FB8535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequoiaGrove2.Tests", "SequoiaGrove2.Tests\SequoiaGrove2.Tests.csproj", "{D4A2E600-D9D1-4116-89FE-8B51E5FE6E82}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84A7AFE9-0EFA-4D7F-91DF-5638A4A3576A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A7AFE9-0EFA-4D7F-91DF-5638A4A3576A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A7AFE9-0EFA-4D7F-91DF-5638A4A3576A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A7AFE9-0EFA-4D7F-91DF-5638A4A3576A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB186838-57C4-4129-9944-D0E058FB8535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB186838-57C4-4129-9944-D0E058FB8535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB186838-57C4-4129-9944-D0E058FB8535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB186838-57C4-4129-9944-D0E058FB8535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A2E600-D9D1-4116-89FE-8B51E5FE6E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A2E600-D9D1-4116-89FE-8B51E5FE6E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A2E600-D9D1-4116-89FE-8B51E5FE6E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A2E600-D9D1-4116-89FE-8B51E5FE6E82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
