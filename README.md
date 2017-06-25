@@ -1,5 +1,5 @@
 # sequoiagrove2
-Hourly Employee Weekly Schedule Writing Tool. This is a rewrite of https://github.com/bethgrace5/sequoia-grove using a Microsoft focused stack, and various business logic improvements like support for multiple time zones. The previous project was more front end focused so that the front end did most of the calculations and the back end was simply a way to get data. It did not have any sort of logging, was difficult to setup, and was not designed well.
+Hourly Employee Weekly Schedule Writing Tool. This is a rewrite of https://github.com/bethgrace5/sequoia-grove using a Microsoft focused stack, a domain driven design development strategy and various business logic improvements like support for multiple time zones. The previous project was more front end focused so that the front end did most of the calculations and the back end was simply a way to get data. It did not have any sort of logging, was difficult to setup, and had no design strategy.
 
 # Stack/Technical Design
 .NET Framework
