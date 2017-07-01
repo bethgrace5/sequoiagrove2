@@ -8,9 +8,10 @@ using SequoiaGrove2.Data;
 namespace SequoiaGrove2.Data.Migrations
 {
     [DbContext(typeof(SequoiaGrove2Context))]
-    partial class SequoiaGrove2ContextModelSnapshot : ModelSnapshot
+    [Migration("20170701234824_EntitiesWithoutRelationships")]
+    partial class EntitiesWithoutRelationships
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.2")

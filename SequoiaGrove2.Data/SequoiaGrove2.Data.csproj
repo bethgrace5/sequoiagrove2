@@ -135,6 +135,10 @@
     <Compile Include="Migrations\20170617053049_SecretIdentity.designer.cs">
       <DependentUpon>20170617053049_SecretIdentity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20170701234824_EntitiesWithoutRelationships.cs" />
+    <Compile Include="Migrations\20170701234824_EntitiesWithoutRelationships.designer.cs">
+      <DependentUpon>20170701234824_EntitiesWithoutRelationships.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\SequoiaGrove2ContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SequoiaGrove2Context.cs" />

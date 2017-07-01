@@ -33,6 +33,15 @@ namespace SequoiaGrove2.Data
             modelBuilder.Entity<SamuraiBattle>()
                 .HasKey(s => new {s.BattleId, s.SamuraiId});
             //modelBuilder.Entity<Samurai>().Property(s => s.SecretIdentity).IsRequired();
+            modelBuilder.Entity<Availability>().HasKey(t => new { t.UserId, t.WeekdayId });
+            modelBuilder.Entity<ScheduleSettings>().HasKey(t => new { t.BusinessId});
+            modelBuilder.Entity<ReceivablesSchedule>().HasKey(t => t.Title);
+            modelBuilder.Entity<UserLocationHistory>().HasKey(t => t.UserId);
+            modelBuilder.Entity<UserPermission>().HasKey(t => t.UserId);
+            modelBuilder.Entity<UserPosition>().HasKey(t => t.UserId);
+            modelBuilder.Entity<Schedule>().HasKey(t => new { t.LocationId, t.StartDate });
+            modelBuilder.Entity<UserScheduledForShift>().HasKey(t => new { t.UserId, t.ShiftId, t.Date });
+
             base.OnModelCreating(modelBuilder);
         }
 
